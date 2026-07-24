@@ -1,10 +1,14 @@
 # Code Reviewer
 
+![Blotcat scrutinizing a pull request and local changes with a massive magnifying glass](assets/blotcat-hero.jpg)
+
 An agent skill for reviewing local changes, commits, Git ranges, branches, and GitHub pull requests.
 
 The skill focuses on defects that can affect users or production: incorrect behavior, security issues, regressions, data loss, unsafe failure paths, and missing tests. It avoids speculative findings and style-only noise.
 
 ## What It Does
+
+![Blotcat reading a full code scroll instead of a ripped isolated diff hunk](assets/blotcat-context.jpg)
 
 - Reviews staged, unstaged, and relevant untracked files.
 - Handles single commits, explicit Git ranges, and branch comparisons with correct diff semantics.
@@ -50,6 +54,8 @@ Use $code-reviewer to perform a security review of this branch.
 The skill can also activate when you ask for a code review, PR review, regression check, security review, or approval decision.
 
 ## Review Output
+
+![Blotcat sorting bugs into severity boxes while kicking style noise directly into the trash](assets/blotcat-filter.jpg)
 
 Findings are listed first and ordered by severity:
 
